@@ -1,0 +1,119 @@
+.logo {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  text-align: center;
+}
+.logo:hover {
+  animation: changecolor 2s;
+}
+@keyframes changeColor {
+  0% {
+    background-color: #D0D3D4;
+  }
+  10% {
+    background-color: red;
+  }
+  20% {
+    background-color: yellow;
+  }
+  30% {
+    background-color: aqua;
+  }
+  40% {
+    background-color: violet;
+  }
+  50% {
+    background-color: blue;
+  }
+  60% {
+    background-color: green;
+  }
+  70% {
+    background-color: pink;
+  }
+  80% {
+    background-color: chocolate;
+  }
+  90% {
+    background-color: gold;
+  }
+  100% {
+    background-color: #7B7D7D;
+  }
+}
+
+.lista {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+}
+.lista:hover {
+  animation: changecolor 2s;
+}
+@keyframes changeColor {
+  0% {
+    background-color: #D0D3D4;
+  }
+  10% {
+    background-color: red;
+  }
+  20% {
+    background-color: yellow;
+  }
+  30% {
+    background-color: aqua;
+  }
+  40% {
+    background-color: violet;
+  }
+  50% {
+    background-color: blue;
+  }
+  60% {
+    background-color: green;
+  }
+  70% {
+    background-color: pink;
+  }
+  80% {
+    background-color: chocolate;
+  }
+  90% {
+    background-color: gold;
+  }
+  100% {
+    background-color: #7B7D7D;
+  }
+}
+
+.ul-lista {
+  color: #ff0000;
+  text-decoration: none;
+  list-style: none;
+}
+
+/*main index*/
+.h1-carousel {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.h2-carousel {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/*footer index*/
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.footer-t {
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*# sourceMappingURL=style.css.map */

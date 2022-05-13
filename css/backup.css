@@ -1,0 +1,141 @@
+/* reseteo*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header index*/
+
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+}
+
+/* animacion logo index*/
+.logo:hover{
+    animation: changeColor 2s;
+}
+@keyframes changeColor{
+    0%{
+        background-color: #D0D3D4;
+    }
+    10%{
+        background-color: red;
+    }
+    20%{
+        background-color: yellow;
+    }
+    30%{
+        background-color: aqua;
+    }
+    40%{
+        background-color: violet;
+    }
+    50%{
+        background-color: blue;
+    }
+    60%{
+        background-color: green;
+    }
+    70%{
+        background-color:pink;
+    }
+    80%{
+        background-color:chocolate
+    }
+    90%{
+        background-color: gold;
+    }
+   
+    100%{
+        background-color: #7B7D7D ;
+    }
+
+}
+
+
+.lista:hover{
+    animation: changeColor 2s;
+}
+@keyframes changeColor{
+    0%{
+        background-color: #D0D3D4;
+    }
+    10%{
+        background-color: red;
+    }
+    20%{
+        background-color: yellow;
+    }
+    30%{
+        background-color: aqua;
+    }
+    40%{
+        background-color: violet;
+    }
+    50%{
+        background-color: blue;
+    }
+    60%{
+        background-color: green;
+    }
+    70%{
+        background-color:pink;
+    }
+    80%{
+        background-color:chocolate
+    }
+    90%{
+        background-color: gold;
+    }
+   
+    100%{
+        background-color: #7B7D7D ;
+    }
+
+}
+
+
+
+.lista{
+    padding-top: 10px;
+    /* border: solid 1px grey; */
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}
+    
+
+.ul-lista{
+    color: #ff0000;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*main index*/
+
+.h1-carousel{
+    color: black;
+    font-family:'Courier New', Courier, monospace
+}
+
+.h2-carousel{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+/*footer index*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.footer-t{
+    list-style: none;
+    font-family:'Courier New', Courier, monospace
+}

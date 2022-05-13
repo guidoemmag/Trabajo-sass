@@ -1,0 +1,130 @@
+@import '../base/variables';
+@import '../base/listas';
+
+
+.logo{
+
+    font-family: $font-family;
+    color: black;
+    text-align: center;
+    &:hover{
+        animation: changecolor 2s;
+    }
+    @keyframes changeColor{
+        0%{
+            background-color: nth($colores, 1);
+        }
+        10%{
+            background-color: nth($colores, 2);
+        }
+        20%{
+            background-color: nth($colores, 3);
+        }
+        30%{
+            background-color: nth($colores, 4);
+        }
+        40%{
+            background-color: nth($colores, 5);
+        }
+        50%{
+            background-color: nth($colores, 6);
+        }
+        60%{
+            background-color: nth($colores, 7);
+        }
+        70%{
+            background-color: nth($colores, 8);
+        }
+        80%{
+            background-color: nth($colores, 9);
+        }
+        90%{
+            background-color: nth($colores, 10);
+        }
+       
+        100%{
+            background-color: nth($colores, 11);
+        }
+    
+    }
+}
+.lista{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    &:hover{
+        animation: changecolor 2s;
+    }
+    @keyframes changeColor{
+        0%{
+            background-color: #D0D3D4;
+        }
+        10%{
+            background-color: red;
+        }
+        20%{
+            background-color: yellow;
+        }
+        30%{
+            background-color: aqua;
+        }
+        40%{
+            background-color: violet;
+        }
+        50%{
+            background-color: blue;
+        }
+        60%{
+            background-color: green;
+        }
+        70%{
+            background-color:pink;
+        }
+        80%{
+            background-color:chocolate
+        }
+        90%{
+            background-color: gold;
+        }
+       
+        100%{
+            background-color: #7B7D7D ;
+        }
+    
+    }
+    
+}
+
+.ul-lista{
+    color: #ff0000;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*main index*/
+
+.h1-carousel{
+    color: black;
+    font-family:'Courier New', Courier, monospace
+}
+
+.h2-carousel{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+/*footer index*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+.footer-t{
+    list-style: none;
+    font-family:'Courier New', Courier, monospace
+}
